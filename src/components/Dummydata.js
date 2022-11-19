@@ -9,7 +9,7 @@ export const cardData1 = [
  
     {
 
-        title: "Afang soup Recipes",
+        title: "Afang Soup Recipes",
         time: "120 mins",
         ingr: "12 ingredients",
         desc: "Afang soup, is a vegetable soup that originates from the Efik people of the Efik kingdom in Cross River State and the Ibibio People of Akwa Ibom in Southern Nigeria. It is a dish popularly known by Nigerians and also some parts of Africa.",

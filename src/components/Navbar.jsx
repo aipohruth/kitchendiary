@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="flex">
     <div className='bg-red-50  h-full w-48 xs:hidden'>
         <div className='pt-8 px-4'>
-    <div className='text-2xl font-inter font-bold'>Kitchen<span className='text-orange-500'>Diary</span></div>
+    <div className='text-2xl font-inter mt-4 font-bold'>Kitchen<span className='text-orange-500'>Diary</span></div>
 
             <nav className='my-20 font-rail text-sm text-neutral-500'>
             <ul>

@@ -17,9 +17,9 @@ const Card = ({title, time, ingr, desc, logo}) => {
 
 
   return (
-    <div className='border border-neutral-400 w-60 p-2'>
+    <div className='border border-neutral-400  rounded-lg mb-4 w-84 h-80 p-3'>
       <div>
-        <img src={logo} alt='food'/>
+        <img src={logo} className='w-72 h-36' alt='food'/>
         </div>
         <div className='flex justify-between mt-4 items-center'>
         <div className='font-raleway font-bold'>
@@ -48,10 +48,10 @@ const Card = ({title, time, ingr, desc, logo}) => {
             </div>
             <div className='flex justify-start items-center text-sm mb-2'  >
                 <div >
-                <button className='inline-flex text-xs items-center bg-orange-200 rounded p-0.5 space-x-3 mr-4'>Easy</button>
+                <button className='inline-flex text-xs items-center bg-orange-200 rounded-2xl p-1 px-3 space-x-3 mr-4'>Easy</button>
                 </div>
                 <div>
-                <button className='inline-flex text-xs items-center  bg-orange-200 rounded p-0.5  space-x-3'>4 Steps</button>
+                <button className='inline-flex text-xs items-center  bg-orange-200 rounded-2xl p-1 px-3   space-x-3'>4 Steps</button>
                 </div>
             </div>
     </div>

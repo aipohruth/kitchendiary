@@ -9,8 +9,8 @@ import prof from  '../Assets/prof.png'
 const Topbar = () => {
   return (
     
-      <div className='flex justify-between font-rail pt-3'>
-        <div className='flex items-center font-rail h-10 w-2/5 text-sm rounded-md pl-16 pr-4 text-neutral-400  border border-neutral-400 '>
+      <div className='flex justify-between font-rail  mt-4 pt-3'>
+        <div className='flex items-center font-rail  h-10 w-2/5 text-sm rounded-md pl-16 pr-4 text-neutral-400  border border-neutral-400 '>
         <BiSearch className=' text-neutral-400' />
       <input type='text' className='ml-4 text-xs'  placeholder='Search for recipes...' />
       </div>
